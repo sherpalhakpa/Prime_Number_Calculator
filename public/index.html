@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+	   <meta name="author" content="Carlos Arias from Getbootstrap.com">
+	   <title>Express Form Example</title>
+		 	<!--<linkhref="http://leia.cs.spu.edu/bootstrap/css/bootstrap.min.css"rel="stylesheet">-->
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+     <style>
+      input:invalid+span:after{
+        content: '✖';  padding­left: 5px  ;
+      }
+      input:valid+span:after{
+        content: '✓';  padding­left: 5px;
+      }
+     </style>
+  </head>
+	<body>
+    <nav>
+    <div class="container">
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+      <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="/oldwork/index.html" role="tab" aria-controls="nav-profile" aria-selected="false">Past HW</a>
+      <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="/static/images/lfc.png" role="tab" aria-controls="nav-contact" aria-selected="false">Image</a>
+    </div>
+  </nav>
+  </div>
+  <div class="container">
+    <form class = "form-inline" action="process_get" method="GET">
+      <input type="number" class="form-control mb-2 mr-sm-2" id="userNumber" placeholder=" Your Number " name="userNumber" min = "2" required = "required">
+      <span class = "validity"></span>
+      <button type="submit" class="btn btn-primary mb-2">Check</button>
+    </form>
+  </div>
+	<br><br>
+	<div class="container">
+		<blockquote class="blockquote text-center">
+  <p class="mb-0">It was a Great Season. I couldn't be more proud of the boys, but the job is undone and We'll Go Again (next season) stronger than ever</p>
+  <footer class="blockquote-footer">Jurgen Klopp <cite title="Source Title">on 18/19 Season</cite></footer>
+</blockquote>
+	</div>
+	<div class="container">
+		<img src="/static/images/lfc.png" class="img-thumbnail" alt="Responsive image">
+	</div>
+  </body>
+</html>

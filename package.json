@@ -1,0 +1,22 @@
+{
+  "name": "prime-lhaktenjing",
+  "version": "1.0.0",
+  "description": "These assignment has several parts: 1. Create a page that has a form with a number input field [25]    1. The page must use bootstrap (use CDN link) [5]    1. The page should have a centered image [5]    1. The form's action should be `checkprime` with method GET [5]    1. The input field should validate that the text is a number greater or equal than 2. You might get ideas from the midterm files. [10] 1. Create a node application that will respond to the form on the page [25]    1. The node program should use Express [5]    1. Node should serve the image used in the page as a static resource [5]    1. It would have a route to handle GET requests with `checkprime` resource, this request should respond if the number is prime or not. [15]    1. CHALLENGE: the node program responds the prime factors of non-prime numbers [15]",
+  "main": "app-1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csc3221-spring2019/node-prime-Lhaktenjing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csc3221-spring2019/node-prime-Lhaktenjing/issues"
+  },
+  "homepage": "https://github.com/csc3221-spring2019/node-prime-Lhaktenjing#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
