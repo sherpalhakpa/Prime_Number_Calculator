@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/csc3221-spring2019/node-prime-Lhaktenjing#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.19.2"
   }
 }
